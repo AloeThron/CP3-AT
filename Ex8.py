@@ -1,0 +1,23 @@
+ID = input("UserName : ")
+Pass = input("Password : ")
+
+while ID != "Admin" or Pass != "123":
+    print("UserName or Password is Wrong")
+    ID = input("UserName : ")
+    Pass = input("Password : ")
+print("Done!")
+
+print("-----------------------------")
+print("------------Shop-------------")
+print("-----------------------------")
+print("1. Orange              20 THB")
+print("2. Kiwi                10 THB")
+print("3. Mango               15 THB")
+print("-----------------------------")
+print("-----------Amount------------")
+a = int(input("1. Orange : "))
+b = int(input("2. Kiwi : "))
+c = int(input("3. Mango : "))
+print("-----------------------------")
+print("-----------Result------------")
+print("Total Price :", (a*20)+(b*10)+(c*15), "THB")
